@@ -1,4 +1,4 @@
-package hints;
+package iterator;
 
 import java.util.Iterator;
 

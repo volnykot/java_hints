@@ -17,11 +17,10 @@ class PersonComparator {
 	public String toString() {
 		return id + " " + name;
 	}
-
 }
 
-class ComporatorByID implements Comparator<PersonComparator> { // as a rule this class creates in a different file named
-														// "Comporators"
+/*as a rule this class has to be created in a different package named "Comparators"*/
+class ComporatorByID implements Comparator<PersonComparator> {
 
 	@Override
 	public int compare(PersonComparator p1, PersonComparator p2) {

@@ -29,7 +29,7 @@ class Company {
 	}
 
 	public ArrayList<Person> findPerson(Predicate<Person> predicate) { 	// method to find some person from ArrayList
-																			// according to any predicate
+																		// according to any predicate
 		ArrayList<Person> tempArr = new ArrayList<>();
 		for (int i = 0; i < arrOfStuff.size(); i++) {
 			if (predicate.test(arrOfStuff.get(i))) {
